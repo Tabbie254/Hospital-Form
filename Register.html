@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Patient Registration Form </title>
+
+    <link rel="stylesheet" href="CSS/Register.css">
+</head>
+<body>
+<nav>
+    <a href="Landing%20Page.html"> Landing Page </a>
+</nav>
+
+
+<div>
+<h1 style="color: white"> Patient Registration Form </h1>
+
+    <img src="images/Hospital icon.png" alt="Loading image" width="300" height="130"
+         class="center" >
+</div>
+<form class="glass" action="#">
+    <div class="divstyle">
+        <labels> Patient's Name </labels>
+        <input class="inputstyle" type="text" name="PName" placeholder="Enter name"><br>
+    </div>
+
+    <div class="divstyle">
+        <label> Gender</label>
+        <select name="gender">
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+        </select>
+    </div>
+
+    <div class="divstyle">
+        <label> Date of Birth</label>
+        <input class="inputstyle" type="date" name="dob"><br>
+    </div>
+
+    <div class="divstyle">
+        <labels> Address </labels>
+        <input class="inputstyle" type="text" name="address" placeholder="Enter address"><br>
+    </div>
+    <div class="divstyle">
+        <labels> City/Town </labels>
+        <input class="inputstylead" type="text" name="city" placeholder="Enter your city">
+
+        <labels> State </labels>
+        <input class="inputstylead" type="text" name="state" placeholder="Enter your State">
+
+        <labels> Zip Code </labels>
+        <input class="inputstylead" type="text" name="zcode" placeholder="Enter your city">
+
+    </div>
+
+
+    <div class="divstyle">
+        <labels> Occupation </labels>
+        <input class="inputstyle" type="text" name="occupation" placeholder="Enter your Occupation"><br>
+    </div>
+
+    <div class="divstyle">
+        <label> Email Address </label>
+        <input class="inputstyle" type="email" name="emailaddress" placeholder="Enter your Email Address"><br>
+
+    </div>
+
+    <div class="divstyle">
+        <label> Home Phone </label>
+        <input class="inputstyle" type="tel" name="hnumber"><br>
+
+
+        <label> Personal Phone </label>
+        <input class="inputstyle" type="tel" name="pnumber">
+    </div>
+
+    <div class="divstyle">
+        <labels> Employer's Name</labels>
+        <input class="inputstyle" type="text" name="Ename" placeholder="Enter your Employer's name"><br>
+
+        <label> Employer's Phone </label>
+        <input class="inputstyle" type="tel" name="enumber">
+
+    </div>
+
+    <div class="divstyle">
+        <labels> Employer's Address </labels>
+        <input class="inputstyle" type="text" name="eaddress" placeholder="Enter Employer's address"><br>
+    </div>
+
+    <div class="divstyle">
+        <labels> Mother's Name [if patient is under 21 years] </labels>
+        <input class="inputstyle" type="text" name="mname" placeholder="Enter Mother's name">
+    </div>
+
+    <div class="divstyle">
+        <labels> Father's Name [if patient is under 21 years] </labels>
+        <input class="inputstyle" type="text" name="fname" placeholder="Enter Father's name">
+    </div>
+
+
+
+
+    </div>
+
+    <div class="divstyle">
+        <labels> Name of Primary Insurance </labels>
+        <input class="inputstyle" type="text" name="pinsurance" placeholder="Enter primary insurance name"><br>
+    </div>
+
+    <div class="divstyle">
+        <labels>Name of Primary Guarantor </labels>
+        <input class="inputstyle" type="text" name="pguarantor" placeholder="Enter Primary guarantor's name"><br>
+    </div>
+
+    <div class="divstyle">
+        <labels> Primary Guarantor's Address </labels>
+        <input class="inputstyle" type="text" name="gaddress" placeholder="Enter Primary guarantor's address"><br>
+    </div>
+
+    <div class="divstyle">
+        <label> Ethnic Group </label> <br>
+
+        <span>
+
+        <input  type="radio" name="program" value="African American/Black">
+             <label> African American/Black </label><br>
+
+        <input  type="radio" name="program" value="white">
+            <label> White </label><br>
+
+        <input  type="radio" name="program" value="Asian">
+            <label> Asian </label><br>
+
+            <input  type="radio" name="program" value="other">
+            <label> Other </label><br>
+        </span>
+
+
+        <label> Relationship to Insured </label> <br>
+
+        <span>
+
+
+        <input  type="checkbox" name="fullstack" value="self">
+            <label> Self </label><br>
+
+
+        <input  type="checkbox" name="frontend" value="spouse">
+            <label> Spouse </label><br>
+
+
+        <input type="checkbox" name="backend" value="child">
+            <label> Child </label> <br>
+
+            <input type="checkbox" name="backend" value="other">
+            <label> Other </label> <br>
+        </span>
+    </div>
+
+    <div class="divstyle">
+        <label> Upload patient's Medical files </label>
+        <input class="inputstyle" type="file" name="doc"> <br>
+
+        <label> Patient's Image</label>
+        <input class="inputstyle" type="image" name="image"><br>
+
+    </div>
+    <div class="divstyle">
+        <label> Any other Information </label><br>
+        <textarea name="aoi" cols="50" rows="10"></textarea><br>
+
+    </div>
+    <div>
+        <input class="button" type="submit">
+    </div>
+
+</form>
+
+</body>
+</html>

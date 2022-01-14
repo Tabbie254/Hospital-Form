@@ -1,0 +1,67 @@
+form {
+    padding: 15px;
+    justify-content: space-between;
+    line-height: 20px;
+
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 1em;
+    padding-left:30px;
+    background-image: url('/images/national-cancer-institute-NFvdKIhxYlU-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: 100% 20%;
+}
+
+.inputstyle{
+    width: 30%;
+    height: 25px;
+    padding: 4px;
+    margin: 3px;
+    round-clip: 10px;
+    border-radius: 20px;
+    margin-left: 30px;
+
+}
+.inputstylead{
+    width: 20%;
+    height: 25px;
+    padding: 4px;
+    margin: 3px;
+    round-clip: 10px;
+    border-radius: 20px;
+    transform: translate(-50%,-50%);
+
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.divstyle{
+    padding: 4px;
+}
+.glass {
+    width: 1100px;
+    height: 1200px;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 10px;
+    border-radius: 30px;
+    margin-left: 10px;
+
+}
+.button {
+    color: white;
+    background-color: teal;
+    width: 30%;
+    padding: 10px;
+    margin: 3px;
+    round-clip: 10px;
+    border-radius: 10px;
+    margin-left: 30%;
+}
